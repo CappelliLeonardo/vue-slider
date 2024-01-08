@@ -56,7 +56,6 @@ createApp({
                     } 
             ],
 
-            // counter:0
         };
     },
     methods: {
@@ -73,7 +72,7 @@ createApp({
             
             
         },
-        prev () {
+        prev() {
             if(this.currentSlide > 0){
                 this.currentSlide--
             }
